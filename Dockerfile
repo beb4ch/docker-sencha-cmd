@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk10
+FROM adoptopenjdk/openjdk8
 
 MAINTAINER Mladen Maravic <beb4ch@gmail.com>
 
