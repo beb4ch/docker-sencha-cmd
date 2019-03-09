@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8
+FROM adoptopenjdk/openjdk8:x86_64-ubuntu-jdk8u202-b08
 
 MAINTAINER Mladen Maravic <beb4ch@gmail.com>
 
