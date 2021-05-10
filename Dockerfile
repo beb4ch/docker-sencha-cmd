@@ -5,7 +5,7 @@ MAINTAINER Mladen Maravic <beb4ch@gmail.com>
 RUN apt-get update && apt-get install -y apt-utils gnupg2 unzip fontconfig \
     && curl -sL https://deb.nodesource.com/setup_8.x | bash - \
     && apt-get update && apt-get install -y nodejs \ 
-    && curl -sS http://cdn.sencha.com/cmd/7.2.0.66/no-jre/SenchaCmd-7.2.0.66-linux-amd64.sh.zip > /tmp/sencha.zip \
+    && curl -sS http://cdn.sencha.com/cmd/7.3.0.19/no-jre/SenchaCmd-7.3.0.19-linux-amd64.sh.zip > /tmp/sencha.zip \
     && unzip /tmp/sencha.zip -d /tmp \
     && /tmp/SenchaCmd*.sh -q --all \
     && mkdir /extjs \
