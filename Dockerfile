@@ -12,6 +12,6 @@ RUN apt-get update && apt-get install -y apt-utils gnupg2 unzip fontconfig \
     && rm /tmp/SenchaCmd*.sh \
     && rm /tmp/sencha.zip
 
-ENTRYPOINT ["/root/bin/Sencha/Cmd/7.2.0.66/sencha"]
+ENTRYPOINT ["/root/bin/Sencha/Cmd/7.3.0.19/sencha"]
 
 WORKDIR /code
